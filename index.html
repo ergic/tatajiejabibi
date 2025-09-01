@@ -340,7 +340,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card" style="height: 20em;">
         <h2 onclick='unhide("bg-music")'>🎶 Our Song 🎶</h2>
         <audio id="bg-music" controls>
           <source src="audio2.mp3" type="audio/mpeg">
@@ -373,6 +373,12 @@
   </div>
 
   <script>
+
+    window.addEventListener("load", function() {
+    // Force scroll to the very top when the page loads
+    window.scrollTo(0, 0);
+    });
+    
     let notKissed = true;
     let tatajie = true;
     let kissbeben = 0;
@@ -510,4 +516,5 @@
 
 
 </html>
+
 
