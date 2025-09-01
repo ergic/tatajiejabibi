@@ -256,83 +256,83 @@
         <h2 onclick='unhide("memory")'>📸 Tata Jie and Toto Beben 📸</h2>
         <div class="gallery" id="memory">
           <div>
-            <img src="pics\sm1.jpg" alt="Photo 1">
-            <img src="pics\sm11.jpg" alt="Photo 2">
+            <img src="sm1.jpg" alt="Photo 1">
+            <img src="sm11.jpg" alt="Photo 2">
             <p>
               Tata Jie and Beben lagaw in SM Seaside
             </p>
           </div>
           <div>
-            <img src="pics\sm2.jpg" alt="Photo 1">
+            <img src="sm2.jpg" alt="Photo 1">
             <p>
               Tata Jie and Beben lagaw in SM seaside 2
             </p>
           </div>
           <div>
-            <img src="pics\lagaw1.jpg" alt="Photo 1">
-            <img src="pics\lagaw11.jpg" alt="Photo 2">
+            <img src="lagaw1.jpg" alt="Photo 1">
+            <img src="lagaw11.jpg" alt="Photo 2">
             <p>
               Tata Jie and Beben lagaw eat in sugbo cause Tata Jie sunggod.
             </p>
           </div>
           <div>
-            <img src="pics\simala.jpg" alt="Photo 1">
+            <img src="simala.jpg" alt="Photo 1">
             <p>
               Tata Jie and Beben lagaw in Simala, Beben pray for Tata Jie to Heal.
             </p>
           </div>
           <div>
-            <img src="pics\beben1.jpg" alt="Photo 1">
-            <img src="pics\beben12.jpg" alt="Photo 2">
-            <img src="pics\beben12 (1).jpg" alt="Photo 3">
-            <img src="pics\beben12 (2).jpg" alt="Photo 4">
-            <img src="pics\beben12 (3).jpg" alt="Photo 5">
+            <img src="beben1.jpg" alt="Photo 1">
+            <img src="beben12.jpg" alt="Photo 2">
+            <img src="beben12 (1).jpg" alt="Photo 3">
+            <img src="beben12 (2).jpg" alt="Photo 4">
+            <img src="beben12 (3).jpg" alt="Photo 5">
             <p>
               Tata Jie and Beben Horizon1. Play Many many many many.
             </p>
           </div>
           <div>
-            <img src="pics\massage.jpg" alt="Photo 1">
+            <img src="massage.jpg" alt="Photo 1">
             <p>
               Tata Jie love when Beben massage her.
             </p>
           </div>
           <div>
-            <img src="pics\yan1.jpg" alt="Photo 1">
-            <img src="pics\yan2.jpg" alt="Photo 2">
+            <img src="yan1.jpg" alt="Photo 1">
+            <img src="yan2.jpg" alt="Photo 2">
             <p>
               Yang Hero 1 and 2
             </p>
           </div>
           <div>
-            <img src="pics\gf11.jpg" alt="Photo 1">
-            <img src="pics\gf1.jpg" alt="Photo 2">
+            <img src="gf11.jpg" alt="Photo 1">
+            <img src="gf1.jpg" alt="Photo 2">
             <p>
               GIRL FRIEND DAY AT PARIS YEEEEEEY!
             </p>
           </div>
           <div>
-            <img src="pics\gf3.jpg" alt="Photo 1">
+            <img src="gf3.jpg" alt="Photo 1">
             <p>
               BEFORE SAKIT TYAN.
             </p>
           </div>
           <div>
-            <img src="pics\moalboal (1).jpg" alt="Photo 1">
-            <img src="pics\moalboal (2).jpg" alt="Photo 2">
-            <img src="pics\moalboal (3).jpg" alt="Photo 3">
+            <img src="moalboal (1).jpg" alt="Photo 1">
+            <img src="moalboal (2).jpg" alt="Photo 2">
+            <img src="moalboal (3).jpg" alt="Photo 3">
             <p>
               Moalboal drive with Tata Jie. diri ko ginsabat ni tata jie sa may crazy monkey.
             </p>
           </div>
           <div>
-            <img src="pics\lagaw3.jpg" alt="Photo 1">
+            <img src="lagaw3.jpg" alt="Photo 1">
             <p>
               Tata Jie sunggod.
             </p>
           </div>
           <div>
-            <img src="pics\jogging.jpg" alt="Photo 1">
+            <img src="jogging.jpg" alt="Photo 1">
             <p>
               Onwards! Tata Jie and Toto Beben will work to grow and glow!
             </p>
@@ -361,10 +361,10 @@
         <div id="game">
           <h3>Kiss Counter:</h3>
           <h4 id="kisscounter" style="color: #ff7676; margin: 0;"></h4>
-          <img id="jnk" src="pics\TATAJIENOKISS.png" alt="Photo 1">
-          <img id="jk" src="pics\TATAJIEKISS.png" alt="Photo 1">
-          <img id="bnk" src="pics\BEBENNOKISS.png" alt="Photo 1">
-          <img id="bk" src="pics\BEBENKISS.png" alt="Photo 1">
+          <img id="jnk" src="TATAJIENOKISS.png" alt="Photo 1">
+          <img id="jk" src="TATAJIEKISS.png" alt="Photo 1">
+          <img id="bnk" src="BEBENNOKISS.png" alt="Photo 1">
+          <img id="bk" src="BEBENKISS.png" alt="Photo 1">
           <button style="background-color: #ff7676;" onclick="kiss()">Click Me!</button>
           <button onclick="switchPosition()">Switch</button>
         </div>
@@ -380,6 +380,11 @@
     let kisscount = "";
     let kissphoto = "";
     let notkissphoto = "";
+
+    window.addEventListener("load", function() {
+    // Force scroll to the very top when the page loads
+    window.scrollTo(0, 0);
+    });
 
     function switchPosition() {
       notKissed = true;
@@ -502,5 +507,6 @@
 
   </script>
 </body>
+
 
 </html>
