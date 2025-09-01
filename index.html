@@ -340,9 +340,9 @@
         </div>
       </div>
 
-      <div class="card" style="height: 20em;">
+      <div class="card" >
         <h2 onclick='unhide("bg-music")'>🎶 Our Song 🎶</h2>
-        <audio id="bg-music" controls>
+        <audio id="bg-music" controls style="height: 5em;">
           <source src="audio2.mp3" type="audio/mpeg">
           Your browser does not support audio.
         </audio>
@@ -482,6 +482,7 @@
         audio.play().catch(err => {
           console.log("Autoplay blocked:", err);
         });
+        window.scrollTo(0, 0);
       } else {
         alert("What the Tata Jie, try again!");
       }
@@ -516,5 +517,6 @@
 
 
 </html>
+
 
 
